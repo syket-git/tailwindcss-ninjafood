@@ -10,6 +10,9 @@ module.exports = {
         },
       },
     },
+    fontFamily: {
+      body: ['Poppins'],
+    },
   },
   variants: {},
   plugins: [],

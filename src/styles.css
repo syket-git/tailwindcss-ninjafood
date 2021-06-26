@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  @apply bg-white
+    text-gray-700
+    overflow-hidden
+    rounded
+    w-auto
+    shadow-xl
+    cursor-pointer
+    relative;
+}
+
+.badge {
+  @apply bg-gray-200
+    text-gray-500
+    absolute
+    top-0
+    py-2
+    px-4
+    rounded-full
+    mt-3
+    ml-3
+    cursor-pointer
+    flex 
+    items-center;
+}
+
+.btn {
+  @apply py-3 px-5 cursor-pointer rounded-full uppercase tracking-wide text-sm font-semibold;
+}
